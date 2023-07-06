@@ -1,4 +1,4 @@
-# Github Action running git-crypt unlock
+# Github Action to run git-crypt secrets in specific folder
 
 ## Usage
 
@@ -33,3 +33,6 @@ jobs:
 ```shell script
 ./test/entrypoint_test.sh
 ```
+
+
+Based on https://github.com/marketplace/actions/github-action-to-unlock-git-crypt-secrets
