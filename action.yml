@@ -1,6 +1,6 @@
-name: "GitHub Action to unlock git-crypt secrets"
+name: "Unlock git-crypt secrets in specific folder"
 description: "Unlock git-crypt files with a simple alpine based Docker image"
-author: "Arnaud Rinquin & Diego García"
+author: "Marcelo"
 branding:
   icon: "unlock"
   color: "green"
