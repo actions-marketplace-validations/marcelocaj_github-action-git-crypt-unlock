@@ -11,10 +11,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
+        with:
+          path: custom-folder
       - name: Unlock secrets
-        uses: sliteteam/github-action-git-crypt-unlock@1.2.0
+        uses: marcelocaj/github-action-git-crypt-unlock@v1.0.0
         env:
           GIT_CRYPT_KEY: ${{ secrets.GIT_CRYPT_KEY }}
+          REPO_PATH: custom-folder
 ```
 
 ### Secrets
