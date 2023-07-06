@@ -2,6 +2,8 @@
 
 set -eu
 
+git config --global --add safe.directory '*'
+
 if ! [ -z "$REPO_PATH" ]
 then
       cd "$REPO_PATH"
